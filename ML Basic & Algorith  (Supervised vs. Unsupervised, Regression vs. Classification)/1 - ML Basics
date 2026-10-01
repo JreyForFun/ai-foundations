@@ -1,0 +1,53 @@
+# ML Basic & Algorithm (Supervised vs. Unsupervised, Regression vs. Classification)
+
+# Contents
+## Supervised vs. Unsupervised
+## Regression vs. Classification
+## Training & Evaluating Models
+
+## Supervised vs Unsupervised - 2 Main types of algorithm
+
+### Supervised 
+* Required training data with independent variable & dependent variable (labelled data)
+* Need labelled data that can "supervise" the algorithm when learning from the data:
+<ol>
+  <li>Regression Models</li>
+  <li>Classification Models</li>
+</ol>
+
+### Unsupervised
+* Requires training data with independent variables only
+* No need labelled data that can "supervise" the algorithm when learning from the data:
+<ol>
+  <li>Clustering Models</li>
+  <li>Outlier Detection Models</li>
+</ol>
+
+## Regression vs. Classification - 2 types of techniques
+
+### Regression - (Can predict continues values)
+* Can be used when the response to be a predicted is a variable (scaler)
+- Predict continues values
+**Examples:** Linear Regression, Fixed Effects Regression, XGBoost Regression
+
+### Regression Performance Metrics
+
+### Classification - (Predict categorized values/volums)
+* Can be used when the response to be a predicted is a variable (scaler)
+**Examples:** Linear Regression, XGBoost Classification
+- Used to classify emails as a Spam or not spam or to identify the type of any in the image
+
+### Key Difference in the techniques
+
+<ol>
+  <li>Output Type</li>
+  <li>Evaluation Metrics</li>
+  <li>Applications</li>
+</ol>
+
+- Regression models are often used for prediction tests (Predicts such as price or probability)
+
+
+- Classifications are used for decision-making tasks (Predicts the price of house based on its size location or other)
+
+## Training & Evaluating Models
